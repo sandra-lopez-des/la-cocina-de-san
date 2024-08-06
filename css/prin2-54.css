@@ -36,6 +36,36 @@
         align-items: center;
     }
 
+
+    /* inicio clases en css bootstrap */
+    /* menu */
+    .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a,
+    .menu-enlace {
+        color: white;
+        background-color: rgb(226, 43, 58);
+        font-size: 14px;
+        margin-left: 5px;
+        padding: 6px !important;
+        border: none;
+        text-decoration: none;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover,
+    .menu-enlace:hover {
+        color: white;
+        background-color: #4CAF50 !important;
+        text-decoration: none;
+    }
+
     /* CARRUSEL */
     .container {
         margin: 0 !important;
@@ -202,43 +232,16 @@
         text-align: justify;
     }
 
-    /* inicio clases en css bootstrap */
-    /* menu */
-    .navbar-inverse {
-        background-color: transparent;
-        border-color: transparent;
-    }
-
-    .navbar-inverse .navbar-nav>li>a {
-        color: white;
-    }
-
-    .navbar-inverse .navbar-nav>li>a,
-    .menu-enlace {
-        color: white;
-        background-color: rgb(226, 43, 58);
-        font-size: 14px;
-        margin-left: 5px;
-        padding: 6px !important;
-        border: none;
-        text-decoration: none;
-    }
-
-    .navbar-inverse .navbar-nav>li>a:hover,
-    .menu-enlace:hover {
-        color: white;
-        background-color: #4CAF50 !important;
-        text-decoration: none;
-    }
 
     /* ***  sobre mi ****** */
-.row-s {
-    background-color: #eee7f0;
-    padding: 20px 0;
-}
+    .row-s {
+        background-color: #eee7f0;
+        padding: 20px 0;
+    }
+
     /* ***  contacto ****** */
-    
-    .contacto { 
+
+    .contacto {
         background-color: #eee7f0;
         height: 400px;
         padding: 15px;
@@ -319,7 +322,6 @@
 
 /* Media query para teléfonos STANDAR móviles SM XS */
 @media only screen and (min-width: 451px) and (max-width: 795px) {
-
     h1 {
         /* background-color: gray; */
         text-align: left;
@@ -345,9 +347,45 @@
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        color: white;
+
         width: 100%;
-        padding: 0 20px;
+        color: white;
+        padding: 0 8px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    /* inicio clases en css bootstrap */
+    /* menu */
+    .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a,
+    .menu-enlace {
+        color: white;
+        background-color: rgb(226, 43, 58);
+        font-size: 14px;
+        margin-left: 5px;
+        padding: 6px !important;
+        border: none;
+        text-decoration: none;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover,
+    .menu-enlace:hover {
+        color: white;
+        background-color: #4CAF50 !important;
+        text-decoration: none;
     }
 
     /* CARRUSEL */
@@ -360,7 +398,7 @@
 
         background-color: #F19E0E;
         padding: 0 !important;
-        margin-bottom: 400px;
+        margin-bottom: 395px;
     }
 
     .carousel-caption p {
@@ -369,13 +407,7 @@
 
     .carousel-inner,
     .carousel {
-        height: 500px !important;
-        width: 100% !important;
-        margin: 0 !important;
-    }
-
-    .carousel-inner {
-        height: 500px !important;
+        height: 430px !important;
         width: 100% !important;
         margin: 0 !important;
     }
@@ -392,7 +424,7 @@
     .seccion-receta-bebidas {
         height: auto;
         width: 100%;
-        margin-top: 30px;
+        margin: 30px 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -418,7 +450,6 @@
         justify-content: space-between;
         align-items: center;
     }
-
 
     .img-descripcion {
         width: 100%;
@@ -469,7 +500,7 @@
     }
 
     tbody td {
-        font-size: 14px !important;
+        font-size: 15px !important;
         padding-left: 20px !important;
         margin-left: 20px !important;
     }
@@ -485,6 +516,7 @@
         /* la altura de este div debe variar según el relleno que traiga la API*/
         height: auto;
         width: 100%;
+        font-size: 16px;
         padding: 0 15px 15px 15px;
         /*  border: 4px #ad3177 solid;  */
         border-bottom: 1px rgb(92, 92, 99) solid;
@@ -522,85 +554,56 @@
         text-align: justify;
     }
 
-    /* inicio clases en css bootstrap */
-    /* menu */
-    .navbar-inverse {
-        background-color: transparent;
-        border-color: transparent;
+
+    /* ***  sobre mi ****** */
+    .row-s {
+        background-color: #eee7f0;
+        padding: 20px 0;
     }
 
-    .navbar-inverse .navbar-nav>li>a {
-        color: white;
+    /* ***  contacto ****** */
+
+    .contacto {
+        background-color: #eee7f0;
+        height: 400px;
+        padding: 15px;
     }
 
-    .navbar-inverse .navbar-nav>li>a,
-    .menu-enlace {
-        color: white;
-        background-color: rgb(223, 76, 76);
-        border-radius: 9px;
-        font-size: 2vh;
-        margin-left: 5px;
-        padding: 4px !important;
-        text-decoration: none;
+
+    /* ***  sucursales****** */
+    /* fin para que el menú se posicione al final de la página */
+    .sucursales,
+    .iframe-mapas {
+        background-color: #eee7f0;
+        line-height: 30px;
+        padding: 20px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
-
-    .navbar-inverse .navbar-nav>li>a:hover,
-    .menu-enlace:hover {
-        color: white;
-        background-color: #4CAF50 !important;
-        text-decoration: none;
-    }
-
-    /* mi */
-
-
-
-
-
-
-    /* grid basic 
-    .col-md-3,
-    .col-sm-3 {
-        margin-top: 5%;
-    }
-
-    .col-md-6 img,
-    .col-sm-9 img {
-        width: 100%;
-    }
-
-    .col-md-4 img,
-    .col-sm-6 img {
-        width: 90%;
-    }
-*/
-    /* fin clases en css bootstrap */
-
 
     iframe {
         margin: 5% 0 5% 3%;
     }
 
-    /* inicio para que el menú se posicione al final de la página */
-    .row,
-    .contacto {
-        min-height: 53vh;
-        padding: 2%;
+    /* ***  clientes ****** */
+    .row-c {
+        background-color: #bbbaba;
+        margin-top: 10px;
+        padding: 10px 0;
     }
 
-    /* fin para que el menú se posicione al final de la página */
-
-    .sucursales {
-        line-height: 30px;
+    /*imagenes*/
+    .img-cliente {
+        border: 6px white solid;
     }
 
-    .contacto,
-    .sucursales,
-    .formulario-menu,
-    .nuestros-clientes {
-        padding: 0 2%;
-    }
+    /* .imgindex, .imgabout{
+                width: 40%;
+            } */
 
+    /* ***  footer ****** */
     footer {
         background-image: url(../imagenes/footer.jpg);
         background-position: bottom;
@@ -612,7 +615,6 @@
         text-align: center;
         position: relative;
         padding-top: 10px;
-        margin-top: 30px;
         margin-bottom: -10px;
     }
 
@@ -635,20 +637,7 @@
     .redsoc:hover {
         color: #999999
     }
-
-    /*imagenes*/
-
-    .img-cliente {
-        height: 55vh;
-        width: 30%;
-        margin: 0 5% 3vh 5%;
-    }
-
-    /* .imgindex, .imgabout{
-            width: 40%;
-        } */
 }
-
 
 /* Media query para teléfonos STANDAR móviles SM XS */
 @media only screen and (min-width: 796px) and (max-width: 990px) {
