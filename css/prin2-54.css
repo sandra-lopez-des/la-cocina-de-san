@@ -28,7 +28,7 @@
         
         width: 100%;
         color: white;
-        padding: 0 20px;
+        padding: 0 10px;
 
         display: flex;
         flex-direction: row;
@@ -216,9 +216,8 @@
     .navbar-inverse .navbar-nav>li>a,
     .menu-enlace {
         color: white;
-        background-color: rgb(223, 76, 76);
-        border-radius: 9px;
-        font-size: 2vh;
+        background-color: rgb(226, 43, 58);
+        font-size: 14px;
         margin-left: 5px;
         padding: 4px !important;
         text-decoration: none;
