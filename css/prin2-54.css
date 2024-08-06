@@ -283,7 +283,7 @@
     }
 
     footer {
-        background-image: url(/imagenes/footer.jpg);
+       background-image: url(../imagenes/footer.jpg);
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
@@ -612,7 +612,7 @@
     }
 
     footer {
-        background-image: url(/imagenes/footer.jpg);
+       background-image: url(../imagenes/footer.jpg);
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
@@ -937,7 +937,7 @@
     }
 
     footer {
-        background-image: url(/imagenes/footer.jpg);
+        background-image: url(../imagenes/footer.jpg);
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
