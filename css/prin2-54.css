@@ -22,7 +22,7 @@
 
 
     header {
-        background-image: url(/imagenes/menu.jpg);
+        background-image: url(../imagenes/menu.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -355,7 +355,7 @@
 
 
     header {
-        background-image: url(/imagenes/menu.jpg);
+        background-image: url(../imagenes/menu.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -684,7 +684,7 @@
 
 
     header {
-        background-image: url(/imagenes/menu.jpg);
+        background-image: url(../imagenes/menu.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
