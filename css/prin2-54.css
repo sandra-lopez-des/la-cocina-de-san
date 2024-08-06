@@ -28,7 +28,7 @@
         
         width: 100%;
         color: white;
-        padding: 0 10px;
+        padding: 0 8px;
 
         display: flex;
         flex-direction: row;
@@ -99,7 +99,6 @@
         align-items: center;
     }
 
-
     .img-descripcion {
         width: 100%;
         display: flex;
@@ -149,7 +148,7 @@
     }
 
     tbody td {
-        font-size: 14px !important;
+        font-size: 15px !important;
         padding-left: 20px !important;
         margin-left: 20px !important;
     }
@@ -165,6 +164,7 @@
         /* la altura de este div debe variar según el relleno que traiga la API*/
         height: auto;
         width: 100%;
+        font-size: 16px;
         padding: 0 15px 15px 15px;
         /*  border: 4px #ad3177 solid;  */
         border-bottom: 1px rgb(92, 92, 99) solid;
