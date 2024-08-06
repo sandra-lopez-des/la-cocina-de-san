@@ -1,0 +1,1042 @@
+/* Media query para teléfonos MUY PEQUEÑOS móviles SM XS */
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        /* background-color: gray; */
+        text-align: left;
+        /* para centrar h1 */
+        font-size: 30px;
+        margin: 0 0 5px 0;
+        padding: 5px 0 0 0;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    h3 {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+
+    header {
+        background-image: url(/imagenes/menu.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* CARRUSEL */
+    .container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .carousel-caption {
+
+        background-color: #F19E0E;
+        padding: 0 !important;
+        margin-bottom: 400px;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+    }
+
+    .carousel-inner,
+    .carousel {
+        height: 500px !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .carousel-inner {
+        height: 500px !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .item,
+    .item img {
+        height: 500px !important;
+        width: 100% !important;
+    }
+
+
+    /* INICIO GALERIA DE RECETAS IMPORTADAS DESDE UNA API */
+    .seccion-receta-comida,
+    .seccion-receta-bebidas {
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenedor-comida,
+    .contenedor-bebidas {
+        /* la altura de este div debe variar según el relleno que traiga la API*/
+
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img-ingredientes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .img-descripcion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .lista_de_ingredientes {
+        background-color: #ebf0ec;
+        height: auto;
+        width: 100%;
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 4px solid #174e0d;   
+       border-bottom: 1px #575e56 solid;*/
+    }
+
+    table {
+        height: auto;
+        width: 98%;
+        margin-bottom: -20px;
+        border: none !important;
+        align-items: center;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #e7ece8;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+
+
+    thead th {
+        height: 30px;
+        font-size: 14px;
+        font-weight: bold !important;
+        padding-left: 20px;
+        margin-left: 20px;
+        /*  border-bottom: 1px #174e0d solid;  */
+
+    }
+
+    tbody td {
+        font-size: 14px !important;
+        padding-left: 20px !important;
+        margin-left: 20px !important;
+    }
+
+    .receta-img {
+        background-color: #f7f7f7;
+        height: 100%;
+        width: 100%;
+    }
+
+    .receta-texto {
+        background-color: #ffffff;
+        /* la altura de este div debe variar según el relleno que traiga la API*/
+        height: auto;
+        width: 100%;
+        padding: 0 15px 15px 15px;
+        /*  border: 4px #ad3177 solid;  */
+        border-bottom: 1px rgb(92, 92, 99) solid;
+    }
+
+    .coctel-titulo-texto {
+        background-color: #F19E0E;
+        height: 55vh;
+        width: 69%;
+        padding: 0 2%;
+    }
+
+    .receta-img img {
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .receta-titulo-enlace,
+    h5 {
+        text-align: left;
+        font-weight: bold;
+        line-height: 20px;
+        font-size: 16px;
+        margin-bottom: 20px;
+
+    }
+
+    /* FIN GALERIA DE RECETAS IMPORTADAS DESDE UNA API */
+
+    p,
+    ul {
+        text-align: justify;
+    }
+
+    /* inicio clases en css bootstrap */
+    /* menu */
+    .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a,
+    .menu-enlace {
+        color: white;
+        background-color: rgb(223, 76, 76);
+        border-radius: 9px;
+        font-size: 2vh;
+        margin-left: 5px;
+        padding: 4px !important;
+        text-decoration: none;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover,
+    .menu-enlace:hover {
+        color: white;
+        background-color: #4CAF50 !important;
+        text-decoration: none;
+    }
+
+    /* mi */
+
+
+
+
+
+
+    /* grid basic 
+    .col-md-3,
+    .col-sm-3 {
+        margin-top: 5%;
+    }
+
+    .col-md-6 img,
+    .col-sm-9 img {
+        width: 100%;
+    }
+
+    .col-md-4 img,
+    .col-sm-6 img {
+        width: 90%;
+    }
+*/
+    /* fin clases en css bootstrap */
+
+
+    iframe {
+        margin: 5% 0 5% 3%;
+    }
+
+    /* inicio para que el menú se posicione al final de la página */
+    .row,
+    .contacto {
+        min-height: 53vh;
+        padding: 2%;
+    }
+
+    /* fin para que el menú se posicione al final de la página */
+
+    .sucursales {
+        line-height: 30px;
+    }
+
+    .contacto,
+    .sucursales,
+    .formulario-menu,
+    .nuestros-clientes {
+        padding: 0 2%;
+    }
+
+    footer {
+        background-image: url(/imagenes/footer.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        position: relative;
+        padding-top: 10px;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    footer p {
+        height: 30px;
+        text-align: center;
+        color: white;
+        margin-top: 2vh;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    /*red sociales*/
+    .redsoc {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .redsoc:hover {
+        color: #999999
+    }
+
+    /*imagenes*/
+
+    .img-cliente {
+        height: 55vh;
+        width: 30%;
+        margin: 0 5% 3vh 5%;
+    }
+
+    /* .imgindex, .imgabout{
+            width: 40%;
+        } */
+}
+
+
+/* Media query para teléfonos STANDAR móviles SM XS */
+@media only screen and (min-width: 601px) and (max-width: 990px) {
+
+    h1 {
+        /* background-color: gray; */
+        text-align: left;
+        /* para centrar h1 */
+        font-size: 30px;
+        margin: 0 0 5px 0;
+        padding: 5px 0 0 0;
+    }
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+
+    header {
+        background-image: url(/imagenes/menu.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* CARRUSEL */
+    .container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .carousel-caption {
+
+        background-color: #F19E0E;
+        padding: 0 !important;
+        margin-bottom: 390px;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+    }
+
+    .carousel-inner,
+    .carousel {
+        height: 500px !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .carousel-inner {
+        height: 500px !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .item,
+    .item img {
+        height: 500px !important;
+        width: 100% !important;
+    }
+
+
+    /* INICIO GALERIA DE RECETAS IMPORTADAS DESDE UNA API */
+    .seccion-receta-comida,
+    .seccion-receta-bebidas {
+        /* la altura de este div debe variar según el relleno que traiga la API*/
+
+        height: auto;
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenedor-comida,
+    .contenedor-bebidas {
+        /* la altura de este div debe variar según el relleno que traiga la API*/
+
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img-ingredientes {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .img-descripcion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .lista_de_ingredientes {
+        background-color: #ebf0ec;
+        height: auto;
+        width: 320px;
+        margin-left: -70%;
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    table {
+        height: auto;
+        width: 98%;
+        margin-bottom: -20px;
+        border: none !important;
+        align-items: center;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #e7ece8;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+
+
+
+    thead th {
+        height: 30px;
+        font-size: 18px;
+        padding-left: 10px;
+        margin-left: 10px;
+
+    }
+
+    tbody td {
+        font-size: 15px !important;
+        padding-left: 20px !important;
+        margin-left: 20px !important;
+    }
+
+    .receta-img {
+        background-color: #4CAF50;
+        height: 100%;
+        width: 100%;
+    }
+
+    .receta-texto {
+        background-color: #ffffff;
+        /* la altura de este div debe variar según el relleno que traiga la API*/
+        height: auto;
+        width: 100%;
+        padding: 0 15px 15px 15px;
+        /*  border: 4px #ad3177 solid;  */
+        border-bottom: 1px rgb(92, 92, 99) solid;
+    }
+
+    .coctel-titulo-texto {
+        background-color: #F19E0E;
+        height: 55vh;
+        width: 69%;
+        padding: 0 2%;
+    }
+
+    .receta-img img {
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .receta-titulo-enlace,
+    h5,
+    p {
+        text-align: left;
+        font-weight: bold;
+        line-height: 3vh;
+        font-size: 1.5rem;
+    }
+
+    /* FIN GALERIA DE RECETAS IMPORTADAS DESDE UNA API */
+
+
+    p,
+    ul {
+        text-align: justify;
+
+
+    }
+
+    /* inicio clases en css bootstrap */
+    /* menu */
+    .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a,
+    .menu-enlace {
+        color: white;
+        background-color: rgb(223, 76, 76);
+        border-radius: 9px;
+        font-size: 2vh;
+        margin-left: 5px;
+        padding: 4px !important;
+        text-decoration: none;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover,
+    .menu-enlace:hover {
+        color: white;
+        background-color: #4CAF50 !important;
+        text-decoration: none;
+    }
+
+
+    /* grid basic 
+    .col-md-3,
+    .col-sm-3 {
+        margin-top: 5%;
+    }
+
+    .col-md-6 img,
+    .col-sm-9 img {
+        width: 100%;
+    }
+
+    .col-md-4 img,
+    .col-sm-6 img {
+        width: 90%;
+    }
+*/
+    /* fin clases en css bootstrap */
+
+
+    iframe {
+        margin: 5% 0 5% 3%;
+    }
+
+    /* inicio para que el menú se posicione al final de la página */
+    .row,
+    .contacto {
+        min-height: 53vh;
+        padding: 2%;
+    }
+
+    /* fin para que el menú se posicione al final de la página */
+
+    .sucursales {
+        line-height: 30px;
+    }
+
+    .contacto,
+    .sucursales,
+    .formulario-menu,
+    .nuestros-clientes {
+        padding: 0 2%;
+    }
+
+    footer {
+        background-image: url(/imagenes/footer.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        position: relative;
+        padding-top: 10px;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    footer p {
+        height: 30px;
+        text-align: center;
+        color: white;
+        margin-top: 2vh;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    /*red sociales*/
+    .redsoc {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .redsoc:hover {
+        color: #999999
+    }
+
+    /*imagenes*/
+
+    .img-cliente {
+        height: 55vh;
+        width: 30%;
+        margin: 0 5% 3vh 5%;
+    }
+
+    /* .imgindex, .imgabout{
+        width: 40%;
+    } */
+}
+
+
+@media only screen and (min-width: 992px) {
+
+
+    h1 {
+        /* background-color: gray; */
+        text-align: left;
+        /* para centrar h1 */
+        font-size: 10vh;
+        margin: 0 0 1vw 0;
+        padding: 1vw 0 0 0;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+
+    header {
+        background-image: url(/imagenes/menu.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .carousel {
+        height: 500px !important;
+        width: 100%;
+    }
+
+    .carousel-inner {
+        height: 500px !important;
+        width: 100%;
+    }
+
+
+
+    /* INICIO GALERIA DE RECETAS IMPORTADAS DESDE UNA API */
+    .seccion-receta-comida,
+    .seccion-receta-bebidas {
+        /* la altura de este div debe variar según el relleno que traiga la API*/
+
+        height: auto;
+        width: 100%;
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenedor-comida,
+    .contenedor-bebidas {
+        /* la altura de este div debe variar según el relleno que traiga la API*/
+
+        height: auto;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img-ingredientes {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .img-descripcion {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .lista_de_ingredientes {
+        background-color: #ebf0ec;
+        height: auto;
+        width: 320px;
+        margin-left: -70%;
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    table {
+        height: auto;
+        width: 98%;
+        margin-bottom: -20px;
+        border: none !important;
+        align-items: center;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #e7ece8;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+
+
+
+    thead th {
+        height: 30px;
+        font-size: 18px;
+        padding-left: 10px;
+        margin-left: 10px;
+
+    }
+
+    tbody td {
+        font-size: 15px !important;
+        padding-left: 20px !important;
+        margin-left: 20px !important;
+    }
+
+    .receta-img {
+        background-color: #4CAF50;
+        height: 100%;
+        width: 100%;
+    }
+
+    .receta-texto {
+        background-color: #ffffff;
+        /* la altura de este div debe variar según el relleno que traiga la API*/
+        height: auto;
+        width: 100%;
+        padding: 0 15px 15px 15px;
+        /*  border: 4px #ad3177 solid;  */
+        border-bottom: 1px rgb(92, 92, 99) solid;
+    }
+
+    .coctel-titulo-texto {
+        background-color: #F19E0E;
+        height: 55vh;
+        width: 69%;
+        padding: 0 2%;
+    }
+
+    .receta-img img {
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .receta-titulo-enlace,
+    h5,
+    p {
+        text-align: left;
+        font-weight: bold;
+        line-height: 3vh;
+        font-size: 1.5rem;
+    }
+
+    /* FIN GALERIA DE RECETAS IMPORTADAS DESDE UNA API */
+
+    table {
+        border: black solid 2px;
+        margin: 0 5%;
+    }
+
+    th {
+        width: 30%;
+        /* ancho de columna */
+        text-align: left;
+        /* texto alineado hacia la izquierda */
+        text-decoration: underline;
+        /* texto subrayado */
+    }
+
+    p,
+    ul {
+        text-align: justify;
+
+
+    }
+
+    /* inicio clases en css bootstrap */
+    /* menu */
+    .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a,
+    .menu-enlace {
+        color: white;
+        background-color: rgb(223, 76, 76);
+        border-radius: 9px;
+        font-size: 2vh;
+        margin-left: 5px;
+        padding: 4px !important;
+        text-decoration: none;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover,
+    .menu-enlace:hover {
+        color: white;
+        background-color: #4CAF50 !important;
+        text-decoration: none;
+    }
+
+    /* carrusel */
+    .container {
+        margin-bottom: 100px;
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+    }
+
+    /* grid basic 
+    .col-md-3,
+    .col-sm-3 {
+        margin-top: 5%;
+    }
+
+    .col-md-6 img,
+    .col-sm-9 img {
+        width: 100%;
+    }
+
+    .col-md-4 img,
+    .col-sm-6 img {
+        width: 90%;
+    }
+*/
+    /* fin clases en css bootstrap */
+
+
+    iframe {
+        margin: 5% 0 5% 3%;
+    }
+
+    /* inicio para que el menú se posicione al final de la página */
+    .row,
+    .contacto {
+        min-height: 53vh;
+        padding: 2%;
+    }
+
+    /* fin para que el menú se posicione al final de la página */
+
+    .sucursales {
+        line-height: 30px;
+    }
+
+    .contacto,
+    .sucursales,
+    .formulario-menu,
+    .nuestros-clientes {
+        padding: 0 2%;
+    }
+
+    footer {
+        background-image: url(/imagenes/footer.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        width: 100%;
+        height: 120px;
+        text-align: center;
+        position: relative;
+        padding-top: 10px;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    footer p {
+        height: 30px;
+        text-align: center;
+        color: white;
+        margin-top: 2vh;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    /*red sociales*/
+    .redsoc {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .redsoc:hover {
+        color: #999999
+    }
+
+    /*imagenes*/
+
+    .img-cliente {
+        height: 55vh;
+        width: 30%;
+        margin: 0 5% 3vh 5%;
+    }
+
+    /* .imgindex, .imgabout{
+        width: 40%;
+    } */
+
+}
+
+
+
+/*fomulario*/
+label,
+input {
+    font-size: 15px;
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=url],
+input[type=tel],
+input[type=text],
+input[type=textArea],
+select {
+    width: 80%;
+    padding: 10px;
+    /*12px 20px;*/
+    margin: 1vw;
+    /*8px 0;*/
+    display: inline-block;
+    border: 1vw;
+    /*1px solid #ccc;*/
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #042d06;
+}
+
+.formulario {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2%;
+    margin: 1% 10%;
+}
+
+textarea {
+    width: 50%;
+}
