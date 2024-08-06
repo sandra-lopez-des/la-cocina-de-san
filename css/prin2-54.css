@@ -25,7 +25,7 @@
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        
+
         width: 100%;
         color: white;
         padding: 0 8px;
@@ -72,7 +72,7 @@
     .seccion-receta-bebidas {
         height: auto;
         width: 100%;
-        margin-top: 30px;
+        margin: 30px 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -219,7 +219,8 @@
         background-color: rgb(226, 43, 58);
         font-size: 14px;
         margin-left: 5px;
-        padding: 4px !important;
+        padding: 6px !important;
+        border: none;
         text-decoration: none;
     }
 
@@ -230,47 +231,24 @@
         text-decoration: none;
     }
 
-    /* mi */
-
-
-
-
-
-
-    /* grid basic 
-    .col-md-3,
-    .col-sm-3 {
-        margin-top: 5%;
+    /* ***  sobre mi ****** */
+.row-s {
+    background-color: #eee7f0;
+    padding: 20px 0;
+}
+    /* ***  contacto ****** */
+    
+    .contacto { 
+        background-color: #eee7f0;
+        height: 400px;
+        padding: 15px;
     }
 
-    .col-md-6 img,
-    .col-sm-9 img {
-        width: 100%;
-    }
 
-    .col-md-4 img,
-    .col-sm-6 img {
-        width: 90%;
-    }
-*/
-    /* fin clases en css bootstrap */
-
-
-    iframe {
-        margin: 5% 0 5% 3%;
-    }
-
-    /* inicio para que el menú se posicione al final de la página */
-    .row,
-    .contacto {
-        min-height: 53vh;
-        padding: 2%;
-    }
-
+    /* ***  sucursales****** */
     /* fin para que el menú se posicione al final de la página */
-
     .sucursales,
-    .siframe-mapas {
+    .iframe-mapas {
         background-color: #eee7f0;
         line-height: 30px;
         padding: 20px !important;
@@ -280,15 +258,29 @@
         align-items: center;
     }
 
-    .contacto,
-    .sucursales,
-    .formulario-menu,
-    .nuestros-clientes {
-        padding: 0 2%;
+    iframe {
+        margin: 5% 0 5% 3%;
     }
 
+    /* ***  clientes ****** */
+    .row-c {
+        background-color: #bbbaba;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+
+    /*imagenes*/
+    .img-cliente {
+        border: 6px white solid;
+    }
+
+    /* .imgindex, .imgabout{
+                width: 40%;
+            } */
+
+    /* ***  footer ****** */
     footer {
-       background-image: url(../imagenes/footer.jpg);
+        background-image: url(../imagenes/footer.jpg);
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
@@ -298,7 +290,6 @@
         text-align: center;
         position: relative;
         padding-top: 10px;
-        margin-top: 30px;
         margin-bottom: -10px;
     }
 
@@ -322,20 +313,7 @@
         color: #999999
     }
 
-.row-c {
-    background-color: #bbbaba;
-    margin: 10px 0;
-    padding: 10px 0;
-}
 
-    /*imagenes*/
-    .img-cliente {
-        border: 6px white solid;
-    }
-
-    /* .imgindex, .imgabout{
-            width: 40%;
-        } */
 }
 
 
@@ -624,7 +602,7 @@
     }
 
     footer {
-       background-image: url(../imagenes/footer.jpg);
+        background-image: url(../imagenes/footer.jpg);
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
@@ -953,7 +931,7 @@
     }
 
     footer {
-       background-image: url(../imagenes/footer.jpg);
+        background-image: url(../imagenes/footer.jpg);
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
