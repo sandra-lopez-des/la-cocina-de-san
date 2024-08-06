@@ -315,10 +315,14 @@
         color: #999999
     }
 
-    /*imagenes*/
+.row-c {
+    background-color: #bbbaba;
+    padding: 10px 0;
+}
 
+    /*imagenes*/
     .img-cliente {
-        margin: 15px 5px 10px 3vh 5px !important;
+        border: 6px white solid;
     }
 
     /* .imgindex, .imgabout{
