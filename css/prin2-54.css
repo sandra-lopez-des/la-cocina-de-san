@@ -269,8 +269,15 @@
 
     /* fin para que el menú se posicione al final de la página */
 
-    .sucursales {
+    .sucursales,
+    .siframe-mapas {
+        background-color: #eee7f0;
         line-height: 30px;
+        padding: 20px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .contacto,
