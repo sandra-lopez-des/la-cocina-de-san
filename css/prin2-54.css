@@ -1,5 +1,5 @@
 /* Media query para teléfonos MUY PEQUEÑOS móviles SM XS */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     h1 {
         /* background-color: gray; */
         text-align: left;
@@ -318,9 +318,7 @@
     /*imagenes*/
 
     .img-cliente {
-        height: 55vh;
-        width: 30%;
-        margin: 0 5% 3vh 5%;
+        margin: 15px 5px 10px 3vh 5px !important;
     }
 
     /* .imgindex, .imgabout{
@@ -330,7 +328,7 @@
 
 
 /* Media query para teléfonos STANDAR móviles SM XS */
-@media only screen and (min-width: 401px) and (max-width: 795px) {
+@media only screen and (min-width: 451px) and (max-width: 795px) {
 
     h1 {
         /* background-color: gray; */
